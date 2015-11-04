@@ -64,6 +64,10 @@
                         <action selector="actionDollarView:" destination="-1" eventType="touchUpInside" id="tFh-S5-poA"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nT2-NL-GJ3">
+                    <rect key="frame" x="133" y="307" width="162" height="30"/>
+                    <state key="normal" title="测试gitHub"/>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>

@@ -8,20 +8,63 @@
 
 /* Begin PBXBuildFile section */
 		7E2091531BE3387000EC2C3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2091521BE3387000EC2C3D /* AppDelegate.swift */; };
-		7E2091551BE3387000EC2C3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2091541BE3387000EC2C3D /* ViewController.swift */; };
 		7E2091581BE3387000EC2C3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2091561BE3387000EC2C3D /* Main.storyboard */; };
 		7E20915A1BE3387000EC2C3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E2091591BE3387000EC2C3D /* Assets.xcassets */; };
-		7E20915D1BE3387000EC2C3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E20915B1BE3387000EC2C3D /* LaunchScreen.storyboard */; };
+		7E2091D11BE33EF100EC2C3D /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2091651BE33EF000EC2C3D /* NetworkManger.swift */; settings = {ASSET_TAGS = (); }; };
+		7E2091D21BE33EF100EC2C3D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2091661BE33EF000EC2C3D /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		7E2091D31BE33EF100EC2C3D /* WebDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2091671BE33EF000EC2C3D /* WebDataViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7E2091D41BE33EF100EC2C3D /* WebDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E2091681BE33EF000EC2C3D /* WebDataViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7E2091D51BE33EF100EC2C3D /* AddDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20916A1BE33EF000EC2C3D /* AddDataViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7E2091D61BE33EF100EC2C3D /* AddDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E20916B1BE33EF000EC2C3D /* AddDataViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7E2091D71BE33EF100EC2C3D /* DataManagerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20916C1BE33EF000EC2C3D /* DataManagerTool.swift */; settings = {ASSET_TAGS = (); }; };
+		7E2091D81BE33EF100EC2C3D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20916D1BE33EF000EC2C3D /* DataModel.swift */; settings = {ASSET_TAGS = (); }; };
+		7E2091D91BE33EF100EC2C3D /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20916E1BE33EF000EC2C3D /* TestTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		7E2091DA1BE33EF100EC2C3D /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E20916F1BE33EF000EC2C3D /* TestTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		7E2091DB1BE33EF100EC2C3D /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2091701BE33EF000EC2C3D /* TestTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7E20921F1BE33EF100EC2C3D /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2091C91BE33EF100EC2C3D /* OneViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7E2092201BE33EF100EC2C3D /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E2091CA1BE33EF100EC2C3D /* OneViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7E2092211BE33EF100EC2C3D /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2091CB1BE33EF100EC2C3D /* TwoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7E2092221BE33EF100EC2C3D /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E2091CC1BE33EF100EC2C3D /* TwoViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7E2092231BE33EF100EC2C3D /* MasonryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2091CE1BE33EF100EC2C3D /* MasonryViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7E2092241BE33EF100EC2C3D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E2091D01BE33EF100EC2C3D /* ViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7E20923E1BE350A200EC2C3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20923D1BE350A200EC2C3D /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7E2092421BE350E500EC2C3D /* KVOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2092401BE350E500EC2C3D /* KVOViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7E2092431BE350E500EC2C3D /* KVOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E2092411BE350E500EC2C3D /* KVOViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7E2F02A41BE8828C00CD1490 /* DollarToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2F02A31BE8828C00CD1490 /* DollarToolViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C44056EE2D772FBA556AF279 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F08479758C9E74E73F1563 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2612C6BB7BADA2CD2F22DE52 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7E20914F1BE3386F00EC2C3D /* testSwfit1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSwfit1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E2091521BE3387000EC2C3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E2091541BE3387000EC2C3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E2091571BE3387000EC2C3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E2091591BE3387000EC2C3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7E20915C1BE3387000EC2C3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E20915E1BE3387000EC2C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E2091651BE33EF000EC2C3D /* NetworkManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
+		7E2091661BE33EF000EC2C3D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		7E2091671BE33EF000EC2C3D /* WebDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebDataViewController.swift; sourceTree = "<group>"; };
+		7E2091681BE33EF000EC2C3D /* WebDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebDataViewController.xib; sourceTree = "<group>"; };
+		7E20916A1BE33EF000EC2C3D /* AddDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataViewController.swift; sourceTree = "<group>"; };
+		7E20916B1BE33EF000EC2C3D /* AddDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddDataViewController.xib; sourceTree = "<group>"; };
+		7E20916C1BE33EF000EC2C3D /* DataManagerTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManagerTool.swift; sourceTree = "<group>"; };
+		7E20916D1BE33EF000EC2C3D /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		7E20916E1BE33EF000EC2C3D /* TestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		7E20916F1BE33EF000EC2C3D /* TestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
+		7E2091701BE33EF000EC2C3D /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
+		7E2091C91BE33EF100EC2C3D /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		7E2091CA1BE33EF100EC2C3D /* OneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
+		7E2091CB1BE33EF100EC2C3D /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		7E2091CC1BE33EF100EC2C3D /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		7E2091CE1BE33EF100EC2C3D /* MasonryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasonryViewController.swift; sourceTree = "<group>"; };
+		7E2091CF1BE33EF100EC2C3D /* testSwift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "testSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		7E2091D01BE33EF100EC2C3D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		7E20923D1BE350A200EC2C3D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E2092401BE350E500EC2C3D /* KVOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVOViewController.swift; sourceTree = "<group>"; };
+		7E2092411BE350E500EC2C3D /* KVOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVOViewController.xib; sourceTree = "<group>"; };
+		7E2F02A31BE8828C00CD1490 /* DollarToolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DollarToolViewController.swift; sourceTree = "<group>"; };
+		98F08479758C9E74E73F1563 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96C4E50D29E0F1A3D18E244 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44056EE2D772FBA556AF279 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +84,8 @@
 			children = (
 				7E2091511BE3387000EC2C3D /* testSwfit1 */,
 				7E2091501BE3386F00EC2C3D /* Products */,
+				D4D752030CE51B65009C095D /* Pods */,
+				D5012F80447DF8C0A632D617 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +100,99 @@
 		7E2091511BE3387000EC2C3D /* testSwfit1 */ = {
 			isa = PBXGroup;
 			children = (
+				7E2F02A21BE8826A00CD1490 /* dollar工具库 */,
+				7E20923F1BE350C400EC2C3D /* KVO */,
+				7E2091641BE33EF000EC2C3D /*  网络数据 */,
+				7E2091691BE33EF000EC2C3D /* 表格 coreData */,
+				7E2091711BE33EF000EC2C3D /* 数据传递 */,
+				7E2091CD1BE33EF100EC2C3D /* 自动布局 */,
+				7E2091D01BE33EF100EC2C3D /* ViewController.xib */,
+				7E20923D1BE350A200EC2C3D /* ViewController.swift */,
 				7E2091521BE3387000EC2C3D /* AppDelegate.swift */,
-				7E2091541BE3387000EC2C3D /* ViewController.swift */,
 				7E2091561BE3387000EC2C3D /* Main.storyboard */,
 				7E2091591BE3387000EC2C3D /* Assets.xcassets */,
-				7E20915B1BE3387000EC2C3D /* LaunchScreen.storyboard */,
+				7E2091CF1BE33EF100EC2C3D /* testSwift-Bridging-Header.h */,
 				7E20915E1BE3387000EC2C3D /* Info.plist */,
 			);
 			path = testSwfit1;
+			sourceTree = "<group>";
+		};
+		7E2091641BE33EF000EC2C3D /*  网络数据 */ = {
+			isa = PBXGroup;
+			children = (
+				7E2091651BE33EF000EC2C3D /* NetworkManger.swift */,
+				7E2091661BE33EF000EC2C3D /* SwiftyJSON.swift */,
+				7E2091671BE33EF000EC2C3D /* WebDataViewController.swift */,
+				7E2091681BE33EF000EC2C3D /* WebDataViewController.xib */,
+			);
+			path = " 网络数据";
+			sourceTree = "<group>";
+		};
+		7E2091691BE33EF000EC2C3D /* 表格 coreData */ = {
+			isa = PBXGroup;
+			children = (
+				7E20916A1BE33EF000EC2C3D /* AddDataViewController.swift */,
+				7E20916B1BE33EF000EC2C3D /* AddDataViewController.xib */,
+				7E20916C1BE33EF000EC2C3D /* DataManagerTool.swift */,
+				7E20916D1BE33EF000EC2C3D /* DataModel.swift */,
+				7E20916E1BE33EF000EC2C3D /* TestTableViewCell.swift */,
+				7E20916F1BE33EF000EC2C3D /* TestTableViewCell.xib */,
+				7E2091701BE33EF000EC2C3D /* TestTableViewController.swift */,
+			);
+			path = "表格 coreData";
+			sourceTree = "<group>";
+		};
+		7E2091711BE33EF000EC2C3D /* 数据传递 */ = {
+			isa = PBXGroup;
+			children = (
+				7E2091C91BE33EF100EC2C3D /* OneViewController.swift */,
+				7E2091CA1BE33EF100EC2C3D /* OneViewController.xib */,
+				7E2091CB1BE33EF100EC2C3D /* TwoViewController.swift */,
+				7E2091CC1BE33EF100EC2C3D /* TwoViewController.xib */,
+			);
+			path = "数据传递";
+			sourceTree = "<group>";
+		};
+		7E2091CD1BE33EF100EC2C3D /* 自动布局 */ = {
+			isa = PBXGroup;
+			children = (
+				7E2091CE1BE33EF100EC2C3D /* MasonryViewController.swift */,
+			);
+			path = "自动布局";
+			sourceTree = "<group>";
+		};
+		7E20923F1BE350C400EC2C3D /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				7E2092401BE350E500EC2C3D /* KVOViewController.swift */,
+				7E2092411BE350E500EC2C3D /* KVOViewController.xib */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		7E2F02A21BE8826A00CD1490 /* dollar工具库 */ = {
+			isa = PBXGroup;
+			children = (
+				7E2F02A31BE8828C00CD1490 /* DollarToolViewController.swift */,
+			);
+			path = "dollar工具库";
+			sourceTree = "<group>";
+		};
+		D4D752030CE51B65009C095D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A96C4E50D29E0F1A3D18E244 /* Pods.debug.xcconfig */,
+				2612C6BB7BADA2CD2F22DE52 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5012F80447DF8C0A632D617 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98F08479758C9E74E73F1563 /* Pods.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E2091611BE3387000EC2C3D /* Build configuration list for PBXNativeTarget "testSwfit1" */;
 			buildPhases = (
+				8829CB219D822591EEF5D4E3 /* Check Pods Manifest.lock */,
 				7E20914B1BE3386F00EC2C3D /* Sources */,
 				7E20914C1BE3386F00EC2C3D /* Frameworks */,
 				7E20914D1BE3386F00EC2C3D /* Resources */,
+				89A67284A9C6E6F3FBCD4B2D /* Embed Pods Frameworks */,
+				CD96BA104670098E20A47CD7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -121,7 +255,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E20915D1BE3387000EC2C3D /* LaunchScreen.storyboard in Resources */,
+				7E2092241BE33EF100EC2C3D /* ViewController.xib in Resources */,
+				7E2091D41BE33EF100EC2C3D /* WebDataViewController.xib in Resources */,
+				7E2092221BE33EF100EC2C3D /* TwoViewController.xib in Resources */,
+				7E2091D61BE33EF100EC2C3D /* AddDataViewController.xib in Resources */,
+				7E2092201BE33EF100EC2C3D /* OneViewController.xib in Resources */,
+				7E2091DA1BE33EF100EC2C3D /* TestTableViewCell.xib in Resources */,
+				7E2092431BE350E500EC2C3D /* KVOViewController.xib in Resources */,
 				7E20915A1BE3387000EC2C3D /* Assets.xcassets in Resources */,
 				7E2091581BE3387000EC2C3D /* Main.storyboard in Resources */,
 			);
@@ -129,13 +269,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8829CB219D822591EEF5D4E3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89A67284A9C6E6F3FBCD4B2D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD96BA104670098E20A47CD7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E20914B1BE3386F00EC2C3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E2091551BE3387000EC2C3D /* ViewController.swift in Sources */,
+				7E2091D11BE33EF100EC2C3D /* NetworkManger.swift in Sources */,
+				7E2091DB1BE33EF100EC2C3D /* TestTableViewController.swift in Sources */,
+				7E2092211BE33EF100EC2C3D /* TwoViewController.swift in Sources */,
+				7E2092421BE350E500EC2C3D /* KVOViewController.swift in Sources */,
+				7E2091D91BE33EF100EC2C3D /* TestTableViewCell.swift in Sources */,
 				7E2091531BE3387000EC2C3D /* AppDelegate.swift in Sources */,
+				7E2092231BE33EF100EC2C3D /* MasonryViewController.swift in Sources */,
+				7E2091D21BE33EF100EC2C3D /* SwiftyJSON.swift in Sources */,
+				7E2091D51BE33EF100EC2C3D /* AddDataViewController.swift in Sources */,
+				7E2F02A41BE8828C00CD1490 /* DollarToolViewController.swift in Sources */,
+				7E20923E1BE350A200EC2C3D /* ViewController.swift in Sources */,
+				7E20921F1BE33EF100EC2C3D /* OneViewController.swift in Sources */,
+				7E2091D81BE33EF100EC2C3D /* DataModel.swift in Sources */,
+				7E2091D31BE33EF100EC2C3D /* WebDataViewController.swift in Sources */,
+				7E2091D71BE33EF100EC2C3D /* DataManagerTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,14 +349,6 @@
 				7E2091571BE3387000EC2C3D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7E20915B1BE3387000EC2C3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E20915C1BE3387000EC2C3D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -181,6 +374,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -225,6 +419,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -244,6 +439,7 @@
 		};
 		7E2091621BE3387000EC2C3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A96C4E50D29E0F1A3D18E244 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testSwfit1/Info.plist;
@@ -255,6 +451,7 @@
 		};
 		7E2091631BE3387000EC2C3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2612C6BB7BADA2CD2F22DE52 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testSwfit1/Info.plist;
@@ -283,6 +480,7 @@
 				7E2091631BE3387000EC2C3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
